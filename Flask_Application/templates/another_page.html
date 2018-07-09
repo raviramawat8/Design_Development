@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<head>
+  <title >Flask_Application - SignUp</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../static/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+         <h1><a href="index.html"style="font-family: Lucida Calligraphy">Flask<span class="logo_colour">&nbsp;Application</span></a></h1>
+          <br><h2 style="font-family: Lucida Calligraphy"> WebApplication</h2></div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+           <li><a href="index.html"style="font-family: Lucida Calligraphy">Login</a></li>
+          <li><a href="page.html"style="font-family: Lucida Calligraphy">Query</a></li>
+          <li><a href="another_page.html"style="font-family: Lucida Calligraphy">SignUP</a></li>
+          <li><a href="contact.html"style="font-family: Lucida Calligraphy">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>  <center>
+			<div style="width:700px">
+			<h1 align = 'center' style="padding-left:10px;border-radius:100px;color:#5D5D5D;font-family: Lucida Calligraphy"> Signup Here</h1>
+			</div>
+            </center>
+            <center>
+			<div style="width:50%">
+				<nav>
+					<table>
+                        <form action = "/cgi-bin/irctc.py" method="post" enctype="multipart/form-data">
+                            <tr>
+							    <td class="jj">Username:</td>
+							    <td><p><input type = 'text' placeholder = 'Type your Username here' name="username"/></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Name:</td>
+							    <td><p><input type = 'text' placeholder = 'Type your Full Name here' name="name"/></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Email:</td>
+							    <td><p><input type = 'email' placeholder = 'Type your Email here' name="email"/></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Address:</td>
+							    <td><p><input type ='text' placeholder = 'Enter your address here' name="address"></p><td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Phone_no:</td>
+							    <td><p><input type ='text' placeholder = 'Enter your phone_no here' name="phno"></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Set Password:</td>
+							    <td><p><input type = 'password' placeholder = 'Type your Password here' name="pass"></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Confirm Password:</td>
+							    <td><p><input type = 'password' placeholder = 'Type Password again' name="pass1"></p></td>
+						    </tr>
+                            <tr>
+							    <td class="jj">Profile Picture:</td>
+							    <td><p><input type = 'file' name='file' style ="width:200px"></p></td>
+						    </tr>
+						    <tr>
+							    <td></td>
+							    <td class="jj"><p><input type = 'submit' value ='Signup' style ="width:100px"></p></td>
+						    </tr>
+                        </form>
+                    </table>
+				</nav>
+			</div>
+            </center>
+       </div>
+      <div id="footer">
+        Copyright Flask Solutions Pvt. Ltd
+      </div>
+  </div>
+</body>
+</html>

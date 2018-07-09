@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Flask_Application</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../static/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html"style="font-family: Lucida Calligraphy">Flask<span class="logo_colour">&nbsp;Application</span></a></h1>
+          <br><h2 style="font-family: Lucida Calligraphy"> WebApplication</h2></div>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+           <li><a href="index.html"style="font-family: Lucida Calligraphy">Login</a></li>
+          <li><a href="page.html"style="font-family: Lucida Calligraphy">Query</a></li>
+          <li><a href="another_page.html"style="font-family: Lucida Calligraphy">SignUP</a></li>
+          <li><a href="contact.html"style="font-family: Lucida Calligraphy">Contact Us</a></li>
+         </ul>
+      </div>
+    </div>
+        s<center>
+        <div style="width:700px">
+			<h1 align ='center' style="padding-left:10px;border-radius:100px;color:#5D5D5D;font-family: Lucida Calligraphy"> Login Here</h1>
+			</div>
+            </center>
+            <center>
+			<div style="width:50%">
+				<nav>
+					<table>
+                        <form action = "/cgi-bin/irctc.py" method="post" enctype="multipart/form-data">
+                            <tr>
+							    <td class="jj">Username :&nbsp;</td>
+							    <td><p><input type = 'text' placeholder = 'Type your Username here' name="username"/></p></td>
+						    </tr>
+						    <tr>
+							    <td class="jj">Password :&nbsp;</td>
+							    <td><p><input type = 'password' placeholder = 'Type your Password here' name="pass"></p></td>
+						    </tr>
+						    <tr>
+							    <td></td>
+							    <td class="jj"><p><input type = 'submit' value ='Login' style ="width:100px"></p></td>
+						    </tr>
+                        </form>
+                    </table>
+				</nav>
+			</div>
+            </center>
+       </div>
+    </div>
+    <div id="footer">
+        Copyright Flask Solutions Pvt. Ltd
+       </div>
+  </div>
+</body>
+</html>
